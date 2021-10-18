@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: red;
+}
+
+/* Menu styles starts*/
+.header {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(102, 197, 235, 0);
+  -webkit-box-shadow: 0px 5px 30px rgba(150, 148, 148, 0.288);
+          box-shadow: 0px 5px 30px rgba(150, 148, 148, 0.288);
+}
+
+.header__brand a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header__menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header__menus a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.header__menus .active {
+  background-color: #c92f8e;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Menu styles Ends*/
+/* Welcome-card styles Starts*/
+.welcome-card {
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.welcome-card__title {
+  font-size: 25px;
+  margin: 0px 0px 10px;
+}
+
+.welcome-card__desc {
+  color: grey;
+}
+
+.welcome-card__btn {
+  background-color: #f8833f;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.welcome-card__btn:hover {
+  background-color: blanchedalmond;
+  color: #111;
+}
+
+/* Welcome-card styles ENDS*/
+/*# sourceMappingURL=main.css.map */
