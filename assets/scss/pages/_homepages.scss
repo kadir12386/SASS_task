@@ -1,0 +1,28 @@
+/* Welcome-card styles Starts*/
+.welcome-card {
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+  &__title {
+    font-size: 25px;
+    margin: 0px 0px 10px;
+  }
+  &__desc {
+    color: grey;
+  }
+  &__btn {
+    background-color: rgb(248, 131, 63);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px 0px;
+    transition: 0.3s;
+  }
+  &__btn:hover {
+    background-color: blanchedalmond;
+    color: #111;
+  }
+}
