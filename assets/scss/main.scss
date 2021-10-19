@@ -1,13 +1,12 @@
-//Variables
-@import "./abstracts/variables/color";
-@import "./abstracts/variables/fonts";
-
 //Base
-@import "./base/global";
-@import "./base/reset";
+@use "./base/global";
+@use "./base/reset";
 
-//navigation
-@import "./layouts/navigation";
+//layouts
+@use "./layouts/navigation";
+
+//components
+@use "./components/buttons";
 
 //Pages
-@import "./pages/homepages";
+@use "./pages/homepages";

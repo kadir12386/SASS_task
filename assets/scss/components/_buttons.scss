@@ -1,0 +1,18 @@
+@use "../abstracts/mixins";
+.btn {
+  @include mixins.btn;
+  &-default {
+    @include mixins.btn(#111);
+  }
+  &-primary {
+    @include mixins.btn(#111);
+    background-color: aquamarine;
+  }
+  &-success {
+    background-color: rgb(14, 138, 61);
+  }
+  &-dark {
+    @include mixins.btn;
+    background-color: rgb(3, 3, 3);
+  }
+}

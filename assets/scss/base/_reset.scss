@@ -1,9 +1,10 @@
+@use "../abstracts/variables/var_index";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: $app-font;
+  font-family: var_index.$app-font;
 }
 body {
-  background-color: $app-color;
+  background-color: var_index.$app-color;
 }
