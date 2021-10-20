@@ -1,0 +1,4 @@
+@use "../abstracts/variables/var_index" as color;
+@function brand_color($variant) {
+  @return map-get($map: color.$theme-color, $key: $variant);
+}

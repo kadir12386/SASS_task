@@ -1,10 +1,11 @@
-@use "../abstracts/variables/var_index";
+@use "../abstracts/variables/var_index" as *;
+@use "../abstracts/function" as func;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var_index.$app-font;
+  font-family: $app-font;
 }
 body {
-  background-color: var_index.$app-color;
+  background-color: func.brand_color("dark");
 }
